@@ -1,4 +1,5 @@
 
+
 # 📵 Meeting Focus Assistant
 
 **Version 2 — Web App + Android Concept**
@@ -30,26 +31,14 @@ Get reminded before meetings and review your weekly focus time stats.
 ---
 
 ## 🌐 Tech Stack
-| Platform           | Stack/Tool                  |
-| ------------------ | --------------------------- |
-| Frontend           | React + Tailwind CSS        |
-| Backend (Web)      | Node.js / Flask (Pluggable) |
+
+| Platform        | Stack/Tool               |
+|-----------------|--------------------------|
+| Frontend        | React + Tailwind CSS     |
+| Backend (Web)   | Node.js / Flask (Pluggable) |
 | Android (Optional) | Kotlin + Accessibility APIs |
-| Notifications      | Push API, WebSockets        |
-| Calendar Sync      | Google Calendar API         |
-
----
-
-## 🧩 Architecture Diagram
-
-```mermaid
-graph TD
-    A[User Input: Meeting Details] --> B[Meeting Focus Assistant UI]
-    B --> C[Scheduler Module]
-    C --> D[Focus Mode Trigger (Web/Android)]
-    D --> E[Notification Blocker + Auto Reply]
-    C --> F[Reminder Notifier]
-```
+| Notifications   | Push API, WebSockets     |
+| Calendar Sync   | Google Calendar API      |
 
 ---
 
