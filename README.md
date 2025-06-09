@@ -30,14 +30,13 @@ Get reminded before meetings and review your weekly focus time stats.
 ---
 
 ## 🌐 Tech Stack
-
-| Platform        | Stack/Tool               |
-|-----------------|--------------------------|
-| Frontend        | React + Tailwind CSS     |
-| Backend (Web)   | Node.js / Flask (Pluggable) |
+| Platform           | Stack/Tool                  |
+| ------------------ | --------------------------- |
+| Frontend           | React + Tailwind CSS        |
+| Backend (Web)      | Node.js / Flask (Pluggable) |
 | Android (Optional) | Kotlin + Accessibility APIs |
-| Notifications   | Push API, WebSockets     |
-| Calendar Sync   | Google Calendar API      |
+| Notifications      | Push API, WebSockets        |
+| Calendar Sync      | Google Calendar API         |
 
 ---
 
